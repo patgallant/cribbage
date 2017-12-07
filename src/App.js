@@ -10,6 +10,9 @@ class App extends Component {
   constructor(props) {
     super(props);
 
+    // TODO: Re-tool the state object.  I think this could be modeled better as right now
+    // the playerOne and playerTwo objects are being passed to both GameArea and PlayerAreas
+    // which seems to violate DRY.
     this.state = {
       playerOne: {
         name: "",
