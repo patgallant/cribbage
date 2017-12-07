@@ -1,6 +1,7 @@
 import React    from "react";
 
 import Hole     from "./Hole";
+import Peg      from "./Peg";
 
 var Track = (props) => {
     let holes = [];
@@ -10,6 +11,8 @@ var Track = (props) => {
     return (
         <div>
             Track: {props.id}
+            <Peg />
+            <Peg />
             {holes}
         </div>
     );

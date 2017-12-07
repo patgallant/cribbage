@@ -1,6 +1,6 @@
 # Component Hierarchy
 
-- App
+- App (State lives here as both the GameArea and PlayerAreas need access.)
 - GameArea
 -- Deck
 -- FaceUpCard
